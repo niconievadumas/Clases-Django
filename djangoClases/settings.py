@@ -54,7 +54,7 @@ ROOT_URLCONF = 'djangoClases.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'/Users/niconievadumas/Desktop/Programacion/CODER/Django clases/templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
