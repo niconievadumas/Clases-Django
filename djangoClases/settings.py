@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "primerasvistas"
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'djangoClases.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'/Users/niconievadumas/Desktop/Programacion/CODER/Django clases/templates/'],
+        'DIRS': [r'/Users/niconievadumas/Desktop/Programacion/CODER/Django clases/templates/', r"C:\Users\Usuario\Desktop\Programacion\Nueva carpeta\templates" ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

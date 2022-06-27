@@ -11,10 +11,22 @@
     <p>Este es el inicio de la pagina de {{nombre}} {{apellido}}</p>
     <p>{% if edad > 4500 %}
         mayor que 4500
-        {% else %}    
+        {% else %}
         menor que 4500
         {% endif %}</p>
+        {% for valor in lista  %}
+        <li> linea {{valor}}</li>
+        {% endfor %}
+    <p>
+        Info del perro:
+        <ul>
+            <li>{{perro.nombre}}</li>
+            <li>{{perro.edad}}</li>
+        <ul/>
+
+    </p>
     
     
-</body>
+    
+    </body>
 </html> 
